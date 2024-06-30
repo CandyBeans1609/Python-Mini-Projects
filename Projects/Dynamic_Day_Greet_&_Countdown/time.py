@@ -6,13 +6,16 @@ name = input("Enter your name: ")
 current_time = time.localtime()
 hour = current_time.tm_hour
 
-# Determine appropriate greeting based on the current hour
+# Determine appropriate greeting based on the current hour (24-hour format)
 if hour >= 12 and hour < 18:
-    print(f"Good Afternoon, {name}!")
+    greeting = "Good Afternoon"
 elif hour < 12:
-    print(f"Good Morning, {name}!")
+    greeting = "Good Morning"
 else:
-    print(f"Good Night, {name}!")
+    greeting = "Good Night"
+
+# Print the greeting message with the name
+print(f"{greeting}, {name}!")
 
 # Calculate remaining seconds until the end of the day
 current_seconds = current_time.tm_hour * 3600 + current_time.tm_min * 60 + current_time.tm_sec
