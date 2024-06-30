@@ -15,7 +15,7 @@ else:
     greeting = "Good Night"
 
 # Print the greeting message with the name
-print(f"{greeting}, {name}!")
+print(f"\n{greeting}, {name}!")
 
 # Calculate remaining seconds until the end of the day
 current_seconds = current_time.tm_hour * 3600 + current_time.tm_min * 60 + current_time.tm_sec
