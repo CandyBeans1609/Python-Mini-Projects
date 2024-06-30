@@ -5,6 +5,8 @@ name = input("Enter your name: ")
 # Get current time in local time
 current_time = time.localtime()
 hour = current_time.tm_hour
+# current_time = time.localtime()
+# hour = int(time.strftime("%H", current_time))
 
 # Determine appropriate greeting based on the current hour (24-hour format)
 if hour >= 12 and hour < 18:
