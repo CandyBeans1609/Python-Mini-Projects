@@ -12,3 +12,15 @@ elif(hour<12):
     print("Good Morning ",name)
 else:
     print("Good Night ",name)
+
+time_parts = curr_time.split(':')
+hours = int(time_parts[0])
+minutes = int(time_parts[1])
+seconds = int(time_parts[2])
+total_seconds = hours * 3600 + minutes * 60 + seconds
+
+print("\nComplete your tasks before day runs out!!")
+for x in range(total_seconds,0,-1):
+    timer=f"{hours:02}:{minutes:02}:{seconds:02}"
+    print(timer,end="\r")
+    time.sleep(1)
