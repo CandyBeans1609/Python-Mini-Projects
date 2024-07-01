@@ -31,6 +31,7 @@ To deploy this project run
 ## Screenshots
 
 Current time:
+<br> 
 ![image](https://github.com/CandyBeans1609/Python-Mini-Projects/assets/156273224/f768e36f-ad0a-4d3e-8822-f8f61e76eb89)
 
 
