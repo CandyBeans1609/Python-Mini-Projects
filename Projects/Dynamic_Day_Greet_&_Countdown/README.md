@@ -16,3 +16,30 @@ This Python mini project greets the user with "Good Morning," "Good Afternoon," 
   - **`time.mktime(t)`**: Converts a time.struct_time object or a tuple representing a time to seconds since the epoch (not used in the provided code but useful for time calculations).
   - **`time.strftime(format, t)`**: Formats a time.struct_time object or a tuple representing a time according to the specified format string (commented out in the provided code).
 
+  
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  python3 time.py
+```
+
+
+## Screenshots
+
+Current time:
+![image](https://github.com/CandyBeans1609/Python-Mini-Projects/assets/156273224/f768e36f-ad0a-4d3e-8822-f8f61e76eb89)
+
+
+Outputs:
+![image](https://github.com/CandyBeans1609/Python-Mini-Projects/assets/156273224/ccadb79f-5f49-48fa-9012-a4a39643c47d)
+![image](https://github.com/CandyBeans1609/Python-Mini-Projects/assets/156273224/6701d13b-c3f3-4797-8d4d-1302ab8d48ca)
+
+
+
+
+## Author
+[Akanksha Kanade](https://github.com/CandyBeans1609)
