@@ -58,7 +58,7 @@ Install Python 3 to run the code.
 
 <br>
 
-## :👻: Author
+## 👻 Author
 
 [Akanksha Kanade](https://github.com/CandyBeans1609)
 <br>
