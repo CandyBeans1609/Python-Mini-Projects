@@ -40,14 +40,19 @@ By completing this project, you will gain practical experience with these essent
 
 ## ⚙️ Prerequisites
 
-Install Python 3 to run the code.
+To run this script, you need:
+
+- Python 3 installed on your machine
+- Basic knowledge of Python programming
+- Familiarity with standard input and output in Python
+- Basic understanding of conditional statements in Python
 
 <br>
 
 ## 🛠️ How to Run
 
 '''python3
-  python3 game.py
+  `python3 game.py`
 '''
 
 <br>
