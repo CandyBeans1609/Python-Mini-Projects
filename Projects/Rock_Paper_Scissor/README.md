@@ -51,9 +51,9 @@ To run this script, you need:
 
 ## 🛠️ How to Run
 
-'''python3
-  `python3 game.py`
-'''
+```bash
+  python3 game.py
+```
 
 <br>
 
