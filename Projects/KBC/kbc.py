@@ -1,25 +1,80 @@
 import random
 
-q1 = ["How many days does February have?", "What does not grow on tree according to a popular Hindi saying?", "Which city is known as Pink City in India?"]
+# Sample questions
+questions = [
+    {
+        "question": "What is the capital of India?",
+        "choices": ["A) Mumbai", "B) New Delhi", "C) Kolkata", "D) Chennai"],
+        "answer": "B"
+    },
+    {
+        "question": "Who wrote the national anthem of India?",
+        "choices": ["A) Rabindranath Tagore", "B) Bankim Chandra Chatterjee", "C) Sarojini Naidu", "D) Mahatma Gandhi"],
+        "answer": "A"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "choices": ["A) Earth", "B) Mars", "C) Venus", "D) Jupiter"],
+        "answer": "B"
+    },
+    {
+        "question": "What is the largest mammal in the world?",
+        "choices": ["A) Elephant", "B) Blue Whale", "C) Giraffe", "D) Hippopotamus"],
+        "answer": "B"
+    },
+    {
+        "question": "Which element has the chemical symbol 'O'?",
+        "choices": ["A) Gold", "B) Oxygen", "C) Osmium", "D) Silver"],
+        "answer": "B"
+    },
+    {
+        "question": "What is the hardest natural substance on Earth?",
+        "choices": ["A) Gold", "B) Iron", "C) Diamond", "D) Quartz"],
+        "answer": "C"
+    },
+    {
+        "question": "Which planet is known as the Gas Giant?",
+        "choices": ["A) Mars", "B) Earth", "C) Jupiter", "D) Saturn"],
+        "answer": "C"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "choices": ["A) Vincent van Gogh", "B) Pablo Picasso", "C) Leonardo da Vinci", "D) Claude Monet"],
+        "answer": "C"
+    },
+    {
+        "question": "What is the largest desert in the world?",
+        "choices": ["A) Sahara", "B) Arabian", "C) Gobi", "D) Antarctic"],
+        "answer": "D"
+    },
+    {
+        "question": "Which chemical element has the atomic number 1?",
+        "choices": ["A) Helium", "B) Hydrogen", "C) Lithium", "D) Carbon"],
+        "answer": "B"
+    }
+]
 
-while True:
-    question = random.choice(q1)
-    correct_ans = None
+def ask_question(q):
+    print(q["question"])
+    for choice in q["choices"]:
+        print(choice)
+    user_answer = input("Enter your answer (A/B/C/D): ").strip().upper()
+    return user_answer == q["answer"]
 
-    if question == q1[0]:
-        print(f"{question}\n1. 30 days \n2. 28 days \n3. 31 days \n4. 27 days")
-        correct_ans = 2
-    elif question == q1[1]:
-        print(f"{question}\n1. Money \n2. Flowers \n3. Leaves \n4. Fruits")
-        correct_ans = 1
-    elif question == q1[2]:
-        print(f"{question}\n1. Pune \n2. Bangalore \n3. Jaipur \n4. Kochi")
-        correct_ans = 3
+def kbc_game():
+    total_prize_money = 0
+    shuffled_questions = random.sample(questions, len(questions))
+    for i, question in enumerate(shuffled_questions):
+        question_prize = 10**(i+1)
+        print(f"\nQuestion {i+1} for {question_prize} rupees")
+        if ask_question(question):
+            total_prize_money += question_prize
+            print(f"Correct! You've won {question_prize} rupees.")
+            print(f"Total prize money so far: {total_prize_money} rupees.")
+        else:
+            print("Incorrect! You've lost the game.")
+            break
+    print(f"Total prize money: {total_prize_money} rupees")
 
-    choice = int(input("Select your choice: "))
-
-    if choice == correct_ans:
-        print("Sahi jawab!!!!")
-        
-    else:
-        print("Galat jawab :( Try again.")
+if __name__ == "__main__":
+    kbc_game()
