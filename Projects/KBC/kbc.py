@@ -69,10 +69,10 @@ def kbc_game():
         print(f"\nQuestion {i+1} for {question_prize} rupees")
         if ask_question(question):
             total_prize_money += question_prize
-            print(f"Correct! You've won {question_prize} rupees.")
-            print(f"Total prize money so far: {total_prize_money} rupees.")
+            print(f"Sahi Jawab!!! Aapko prapt hue hai {question_prize} rupees.")
+            print(f"Prapt Dhanrashi: {total_prize_money} rupees.")
         else:
-            print("Incorrect! You've lost the game.")
+            print("Galat Jawab! :( You've lost the game.")
             break
     print(f"Total prize money: {total_prize_money} rupees")
 
