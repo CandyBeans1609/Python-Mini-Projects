@@ -20,6 +20,6 @@ while True:
 
     if choice == correct_ans:
         print("Sahi jawab!!!!")
-        break
+        
     else:
         print("Galat jawab :( Try again.")
