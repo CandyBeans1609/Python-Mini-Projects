@@ -23,3 +23,13 @@ for i in range(len(arr1)):
 
 print("Result of arr1 + arr2:")
 print_matrix(result)
+
+"""
+for r in result:
+    print(r)
+
+the o/p will be:
+[1, 5]
+[4, 6]
+            
+"""
