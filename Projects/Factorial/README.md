@@ -8,11 +8,12 @@ n.
 <br>
 
 <p align="center">
-  
-![image](https://github.com/user-attachments/assets/cf8ae7fc-65f3-40f4-bd61-8da97f004c86)
-
-
+    <img src="https://github.com/user-attachments/assets/e9adf0a6-fdac-4cb4-8ddd-86513755ca45">
+    
 </p>
+
+
+
 
 <br>
 
