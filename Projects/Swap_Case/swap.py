@@ -10,5 +10,6 @@ def swap(s):
     return ''.join(swapped)
     
 
-s=input("Enter a string: \n")
-print(swap(s))
+s=input("Enter a string: ")
+print("\nInput string:  ",s)
+print("Output string: ",swap(s))
