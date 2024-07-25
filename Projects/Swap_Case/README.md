@@ -5,11 +5,9 @@ A Python function that swaps the case of each character in a given string, conve
 <br>
 
 <p align="center">
-
-![Screenshot 2024-07-25 203846](https://github.com/user-attachments/assets/c47146f3-cd48-40bc-9b7a-be162596643e)
-
-
+    <img src="https://github.com/user-attachments/assets/788143ad-2db6-418e-9992-2fd653fa4f97">
 </p>
+
 
 
 <br>
