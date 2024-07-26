@@ -49,7 +49,7 @@ The Python program allows users to encode and decode messages using a simple sec
 - **String Manipulation**: Familiarity with string operations such as slicing, reversing, and joining.
 - **Lists and Random Module**: Knowledge of working with lists and using the `random` module for shuffling elements.
 - **User Input Handling**: Ability to handle and process user input using `input()` and `split()` methods.
-- 
+  
 <br>
 
 ## 🛠️ How to Run
