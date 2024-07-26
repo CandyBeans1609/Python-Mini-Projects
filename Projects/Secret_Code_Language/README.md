@@ -81,5 +81,6 @@ This program effectively demonstrates a simple method for encoding and decoding 
 <br>
 
 ## 👻 Author
-[Akanksha Kanade](https://github.com/CandyBeans1609)]
-[Atharva Baikar](https://github.com/DarkGuardian641)]
+[Akanksha Kanade](https://github.com/CandyBeans1609)
+<br>
+[Atharva Baikar](https://github.com/DarkGuardian641)
