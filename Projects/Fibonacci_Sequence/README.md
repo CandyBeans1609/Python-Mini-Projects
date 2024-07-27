@@ -5,7 +5,7 @@ This guide demonstrates how to implement a simple Fibonacci sequence generator u
 <br>
 
 <p align="center">
-    <img src=(https://github.com/user-attachments/assets/e13e5eef-6de4-4c45-816c-b489331a3cf7)>
+    <img src="https://github.com/user-attachments/assets/e13e5eef-6de4-4c45-816c-b489331a3cf7">
     
 </p>
 
