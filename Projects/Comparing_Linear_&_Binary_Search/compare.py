@@ -42,4 +42,4 @@ start = time.time()
 for target in sorted_list:
     binary_search(sorted_list, target)
 end = time.time()
-print("Binary search time: ", (end - start), "seconds")
+print("Binary search time: ", (end - start), "seconds\n")
