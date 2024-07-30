@@ -1,6 +1,5 @@
 import pandas as pd
 
-# File path to the CSV file
 file_path = r"Projects/File_Handling/friends_cast_salaries.csv"
 
 def add():
@@ -9,7 +8,6 @@ def add():
     character_played = input("Enter the character played: ")
     salary = input("Enter the salary (per episode): ")
 
-    # Create a DataFrame with the new record
     new_record = pd.DataFrame({
         "Id": [cast_id],
         "Name": [name],
@@ -17,13 +15,11 @@ def add():
         "Salary (per episode)": [salary]
     })
 
-    # Append the new record to the CSV file
     new_record.to_csv(file_path, mode='a', header=False, index=False)
     print("Record added.")
         
 def display():
     try:
-        # Read the CSV file into a DataFrame
         df = pd.read_csv(file_path)
         if df.empty:
             print("No records found.")
@@ -38,7 +34,6 @@ def search():
     cast_id = input("Enter the ID to be searched: ").strip()
     try:
         df = pd.read_csv(file_path)
-        # Convert 'Id' to string to ensure consistent comparison
         df['Id'] = df['Id'].astype(str)
         result = df[df['Id'] == cast_id]
         if not result.empty:
