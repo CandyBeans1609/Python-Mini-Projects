@@ -44,7 +44,32 @@ This guide demonstrates how to implement a simple file handling system using Pyt
 
 ## 📺 Output
 
-![image](https://github.com/user-attachments/assets/426c40c2-7c97-4def-b602-c0fb929c5df5)
+# Display
+![image](https://github.com/user-attachments/assets/c0af8c77-37c0-49c9-8330-10a644161205)
+
+<br>
+# Search
+
+![image](https://github.com/user-attachments/assets/9a21dc39-aff1-4d5b-aabe-04ed5bf538a0)
+<br>
+
+# Add 
+![image](https://github.com/user-attachments/assets/6421d707-68bf-406f-85a4-d4b62d7b9d96)
+![image](https://github.com/user-attachments/assets/b524d5f0-d955-42e8-8fad-88868f4f62ad)
+
+<br>
+# Update 
+
+![image](https://github.com/user-attachments/assets/c74bc9f3-c87c-48d5-a497-8c84600cab34)
+
+<br>
+
+# Delete
+![image](https://github.com/user-attachments/assets/b77cd569-5f15-4d6d-9db2-9e352a5d0c6d)
+![image](https://github.com/user-attachments/assets/71b7bd69-1cbf-4342-a779-0b62cb9711f6)
+
+
+
 
 <br>
 
