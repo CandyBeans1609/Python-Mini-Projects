@@ -1,4 +1,5 @@
 import shutil
 
-output_folder='example'
-shutil.make_archive(output_folder,'zip',dir_to_zip)
+dir_to_zip = r"C:\Users\Akanksha\Documents\GitHub\Python-Mini-Projects\Projects\zip & unzip\input"
+output = 'example'
+shutil.make_archive(output, 'zip', dir_to_zip)
