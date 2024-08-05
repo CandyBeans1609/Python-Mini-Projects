@@ -26,7 +26,7 @@ students_above_threshold = list(filter(lambda x: x['grades'] > threshold, studen
 # Sort students by grades in descending order
 sorted_students = sorted(students, key=lambda x: x['grades'], reverse=True)
 
-print(f"Average Grade: {average_grade}\n")
+print(f"\nAverage Grade: {average_grade}\n")
 print("Students Above Threshold:\n")
 for student in students_above_threshold:
     print(student)
