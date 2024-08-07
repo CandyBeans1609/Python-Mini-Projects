@@ -1,7 +1,3 @@
-Here's the updated README including the installation of `lxml`:
-
----
-
 # Quotes and Authors Web Scraper
 
 This guide demonstrates how to implement a web scraping script that extracts quotes and their corresponding authors from the [Quotes to Scrape](http://quotes.toscrape.com/) website. The script uses the `requests` library to fetch web pages and `BeautifulSoup` to parse the HTML content.
