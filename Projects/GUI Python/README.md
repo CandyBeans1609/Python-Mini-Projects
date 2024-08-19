@@ -24,13 +24,14 @@ For more details on Matplotlib and interactive plotting, visit the [Matplotlib D
 
 ## ⚙️ Prerequisites
 
-Ensure you have `Python 3`, `Jupyter Notebook`, and required libraries such as `Matplotlib` and `ipywidgets` installed. Alternatively, you can run the notebook directly on [Google Colab](https://colab.research.google.com).
+Ensure you have `Python 3`, `Jupyter Notebook`, and required libraries such as `Matplotlib` and `ipywidgets` installed. 
+Alternatively, you can run the notebook directly on [Google Colab](https://colab.research.google.com). Save the file on your drive and run it directly on Google Colab.
 
 <br>
 
 ## 📒 Viewing the notebook
 
-To view the Jupyter notebook, [click here](C:\Users\Akanksha\Documents\GitHub\Python-Mini-Projects\Projects\GUI Python\interactive_plot.ipynb).
+To view the Jupyter notebook, [click here]("https://github.com/CandyBeans1609/Python-Mini-Projects/blob/main/Projects/GUI%20Python/interactive_plot.ipynb") .
 
 <br>
 
@@ -40,6 +41,5 @@ This notebook provides a practical introduction to plotting systems of lines wit
 
 <br>
 
-##   Author
-
-[Akanksha Kanade](https://github.com/your-github-username)
+## 👻 Author
+[Akanksha Kanade](https://github.com/CandyBeans1609)
