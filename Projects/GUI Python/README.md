@@ -31,7 +31,7 @@ Alternatively, you can run the notebook directly on [Google Colab](https://colab
 
 ## 📒 Viewing the notebook
 
-To view the Jupyter notebook, [click here]("https://github.com/CandyBeans1609/Python-Mini-Projects/blob/main/Projects/GUI%20Python/interactive_plot.ipynb")
+To view the Jupyter notebook, [click here](https://github.com/CandyBeans1609/Python-Mini-Projects/blob/main/Projects/GUI%20Python/interactive_plot.ipynb)
 
 <br>
 
