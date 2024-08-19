@@ -5,7 +5,7 @@ This Python notebook provides a guide to plotting a system of up to three lines 
 <br>
 
 <p align="center">
-    <img src="https://example.com/plot_image.png"> <!-- Replace with actual image URL -->
+    <img src="https://github.com/user-attachments/assets/28fcaedd-8bf2-401b-9190-8a225813b599"> 
 </p>
 
 <br>
@@ -31,7 +31,7 @@ Alternatively, you can run the notebook directly on [Google Colab](https://colab
 
 ## 📒 Viewing the notebook
 
-To view the Jupyter notebook, [click here]("https://github.com/CandyBeans1609/Python-Mini-Projects/blob/main/Projects/GUI%20Python/interactive_plot.ipynb") .
+To view the Jupyter notebook, [click here](https://github.com/CandyBeans1609/Python-Mini-Projects/blob/main/Projects/GUI%20Python/interactive_plot.ipynb)
 
 <br>
 
